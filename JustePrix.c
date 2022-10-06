@@ -3,7 +3,7 @@
  * @author andrea.larghi@heig-vd.ch
  * @brief This code is a remake of the TV game "le juste Prix"
  * @date October 2022
- * @note to COMPILE: gcc -Wall -Wextra JustePrix.c -o JustePrix
+ * @note to COMPILE: gcc -O3 -Wall -Wextra JustePrix.c -o JustePrix
 */
 #include <stdio.h>
 #include <stdlib.h>
