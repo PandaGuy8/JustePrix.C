@@ -14,11 +14,13 @@ int main(void)
 {
         int Input = 0;
         int Attempts = 15;
+        int MaxValue = 50000;
 
         srand(time(NULL));
 
-        int bonPrix = rand()/(RAND_MAX/50000);
+        int bonPrix = rand()/(RAND_MAX/MaxValue);
        //printf("%d \n", bonPrix); //Debug only, prints the value to guess
+        printf("Entrez un chiffre entre 0 et %d\n", MaxValue);
         
         while(Attempts != 0){
                 printf("Vous avez %d essais \n", Attempts);
